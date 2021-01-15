@@ -8,7 +8,7 @@ description: >-
 
 ### Authentication
 
-To authenticate with the API a valid password or oAuth2 token must be presented to the authentication endpoint where it is exchanged for a temporary jwt authorization token. Alternatively permanent bearer tokens can be created in the API section of the settings page on the [billing panel](https://www.heimsnet.eu/login).
+All API versions implement bearer tokens for authentication. JWT's are only used on the [billing panel](https://www.heimsnet.eu/login) itself. To acquire a bearer token you can create one via the [billing panel](https://www.heimsnet.eu/login).
 
 ### Communicating with the API
 
