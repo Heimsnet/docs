@@ -6,6 +6,10 @@ description: >-
 
 # Home
 
+### Authentication
+
+To authenticate with the API a valid password or oAuth2 token must be presented to the authentication endpoint where it is exchanged for a temporary jwt authorization token. Alternatively permanent bearer tokens can be created in the API section of the settings page on the [billing panel](https://www.heimsnet.eu/login).
+
 {% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
 Get Cakes
