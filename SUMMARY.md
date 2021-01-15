@@ -1,5 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
-* [v1](v1.md)
+
+## Routes
+
+* [v1](routes/v1.md)
 

@@ -18,5 +18,5 @@ The API's base URI is `https://api.heimsnet.eu/` with the API version being in b
 
 The following API versions exist and can be used:
 
-* [v1 - In development](v1.md)
+* [v1 - In development](routes/v1.md)
 
